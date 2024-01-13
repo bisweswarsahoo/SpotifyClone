@@ -2,20 +2,18 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
     overflow: hidden;
-    
 }
 
 .main{
     display: flex;
     height: 100vh;
     background-color: #000;
-    margin: 0;
 }
 
 .sidebar{
     background-color: #000;
     height: 100%;
-    width: 25rem;
+    width: 20rem;
     border-radius: 1rem; /*16px*/
     margin-right: 0.5rem;
 }
@@ -25,8 +23,8 @@
     opacity: 1;
     padding: 8px 12px;
     border-radius: 0.5em;
-    height:6rem;
-    width: 24rem;
+    height:9rem;
+    width: 18.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,15 +52,13 @@ a{
     font-size: 1rem;
 }
 
-
-
 .library{
     background-color: #141414;
     height: 100%;
     padding: 8px 12px;
     border-radius: 0.7rem;
     margin-top: 7px;
-    width: 24rem;
+    width: 18.5rem;
 }
 
 .options{
@@ -72,7 +68,6 @@ a{
     line-height: 3rem;
     padding: 8px 12px;
     display: flex;
-
     font-weight: 600;
 }
 
@@ -86,7 +81,7 @@ a{
     transition-duration: 0.5s;
 }
 
-.lib-options img{
+.img{
     height: 1.2rem;
     width: 1.2rem;
     
@@ -102,11 +97,9 @@ a{
     transition-duration: 0.5s;
 }
 
-
-
 .box{
     background-color: #232323;
-    height: 8rem;
+    height: 10rem;
     border-radius: 0.75rem;
     margin: 0.5rem 0 1.75rem 0;
     padding: 1rem 1.25rem;
@@ -180,10 +173,15 @@ a{
 .card{
     background-color: #1a1919;
     padding: 1rem;
-    width: 150px;
+    width: 160px;
     border-radius: 0.5rem;
     margin-left: 1rem;
     margin-top: 1rem;
+}
+
+.card:hover{
+    background-color: #232323;
+    cursor: pointer;
 }
 
 .cards-container{
@@ -206,17 +204,47 @@ a{
 }
 
 .footer{
-    height: 300px;
-    display: flex;
+    height: 500px;
+    padding-top: 40px;
     align-items: center;
     justify-content: center;
 }
 
-.line{
+.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    margin-top: 0;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    margin-left: 0; 
+}
+
+.list-items{
+    font-size: 1rem;
+    padding-bottom: 8px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.heading{
+    font-weight: 800;
+}
+
+hr{
     width: 90%;
-    height: 40%;
+    margin-top: 0px;
+    margin-bottom: 24px;
     border-top: 1px solid white;
     opacity:0.1;
+}
+
+.copyright{
+    opacity: 0.8;
+    padding: 16px;
 }
 
 .music-player{
@@ -234,12 +262,21 @@ a{
     width: 25%;
 }
 
+.album-icon{
+    height: 56px;
+    width: 56px;
+    border-radius: 4px;
+}
+
 .player{
     width: 50%;
 }
 
 .controls{
     width: 25%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .player-controls{
