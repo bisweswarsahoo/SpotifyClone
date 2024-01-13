@@ -16,8 +16,12 @@
     <div class="main">
         <div class="sidebar">
 
-            <nav class="navbar">
+            <div class="navbar">
                 <div class="nav">
+                    <div class="nav-option" style="opacity: 1">
+                        <img src="./Assets/logo.png" class="img">
+                        <a href="#">Spotify</a>
+                    </div>
                     <div class="nav-option" style="opacity: 1">
                         <i class="fa-solid fa-house"></i>
                         <a href="#">Home</a>
@@ -27,12 +31,11 @@
                         <a href="#">Search</a>
                     </div>
                 </div>
-            </nav>
-
+            </div>
             <div class="library">
                 <div class="options" style="background-color: #141414;">
                     <div class="lib-options">
-                        <img src="./Assets/library_icon.png">
+                        <img src="./Assets/library_icon.png" class="img">
                         <a href="#">Your Library</a>
                     </div>
                     <div class="icons">
@@ -40,20 +43,19 @@
                     </div>   
                 </div>
                 <div class="lib-box">
-                    <div class="box" >
+                    <section class="box" style="height: 8rem;">
                         <p class="box-p1">Create your first playlist</p>
                         <p class="box-p2">It's easy, we'll help you</p>
                         <button class="badge">Create playlist</button>
-                    </div>
+                    </section>
 
-                    <div class="box" >
+                    <section class="box" >
                         <p class="box-p1">Let's find some podcasts to follow</p>
                         <p class="box-p2">We'll keep you updated on new episodes</p>
                         <button class="badge">Browse podcasts</button>
-                    </div>
+                    </section>
                 </div>
             </div>
-
         </div>
 
         <div class="main-content">
@@ -74,7 +76,7 @@
                 <div class="card">
                     <img src="./Assets/card1img.jpeg" class="card-img">
                     <p class="card-title">Top 50 - Global</p>
-                    <p class="card-info">Your daily updates of the most played tracks</p>
+                    <p class="card-info">Your daily updates of the most played tracks right now - Global.</p>
                 </div>
             </div>
             <h2>Trending now near you</h2>
@@ -118,35 +120,63 @@
                     <img src="./Assets/card4img.jpeg" class="card-img">
                     <p class="card-title">Top 50 - Global</p>
                     <p class="card-info">Your daily updates of the most played tracks</p>
-                </div>
+                </div>                
             </div>
 
             <h2>Featured Charts</h2>
             <div class="cards-container">
                 <div class="card">
                     <img src="./Assets/card5img.jpeg" class="card-img">
-                    <p class="card-title">Top 50 - Global</p>
-                    <p class="card-info">Your daily updates of the most played tracks</p>
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your weekly update of the most played tracks right now - Global.</p>
                 </div>
                 <div class="card">
                     <img src="./Assets/card6img.jpeg" class="card-img">
-                    <p class="card-title">Top 50 - Global</p>
-                    <p class="card-info">Your daily updates of the most played tracks</p>
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your weekly update of the most played tracks right now - India.</p>
                 </div>
                 <div class="card">
                     <img src="./Assets/card1img.jpeg" class="card-img">
                     <p class="card-title">Top 50 - Global</p>
-                    <p class="card-info">Your daily updates of the most played tracks</p>
+                    <p class="card-info">Your daily updates of the most played tracks.</p>
                 </div>
             </div>
             <div class="footer">
-                <div class="line">
-
+                <div class="details">
+                    <div class="detail1">
+                        <ul>
+                            <p class="heading">Company</p>                              
+                            <span class="list-items">About</span>
+                            <span class="list-items">Jobs</span>
+                            <span class="list-items">For the Record</span>
+                        </ul>
+                    </div>
+                    <div class="detail2">
+                        <ul>
+                            <p class="heading">Communities</p>
+                            <span class="list-items">For Artists</span>
+                            <span class="list-items">Developers</span>
+                            <span class="list-items">Advertising</span>
+                            <span class="list-items">Investors</span>
+                            <span class="list-items">Vendors</span>
+                        </ul>
+                    </div>
+                    <div class="detail3">
+                        <ul>        
+                            <p class="heading">Useful links</p>
+                            <span class="list-items">Support</span>
+                            <span class="list-items">Free Mobile App</span>
+                        </ul>
+                    </div>
                 </div>
+                <hr>
+                <div class="copyright">© 2024 Spotify AB</div>
             </div>
         </div>
         <div class="music-player">
-            <div class="album"></div>
+            <div class="album">
+                <img src="./Assets/album_picture.jpeg" class="album-icon">
+            </div>
             <div class="player">
                 <div class="player-controls">
                     <img src="./Assets/player_icon1.png" class="player-control-icon">
@@ -161,7 +191,15 @@
                     <span class="tot-time">03:33</span>
                 </div>
             </div>
-            <div class="controls"></div>
+            <div class="controls">
+                <img src="./Assets/controls_icon1.png" class="controls-icon">
+                <img src="./Assets/controls_icon2.png" class="controls-icon">
+                <img src="./Assets/controls_icon3.png" class="controls-icon">
+                <img src="./Assets/controls_icon4.png" class="controls-icon">
+                <img src="./Assets/controls_icon5.png" class="controls-icon">
+                <img src="./Assets/controls_icon6.png" class="controls-icon">
+                <img src="./Assets/controls_icon7.png" class="controls-icon">
+            </div>
         </div>
     </div>
 </body>
