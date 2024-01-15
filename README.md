@@ -1,2 +1,2 @@
 # SpotifyClone
-This is a clone of Spotify Website with html and css.
+This is a clone of Spotify Music Player Website with HTML and CSS.
