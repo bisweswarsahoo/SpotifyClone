@@ -15,7 +15,6 @@
 <body>
     <div class="main">
         <div class="sidebar">
-
             <div class="navbar">
                 <div class="nav">
                     <div class="nav-option" style="opacity: 1">
@@ -43,16 +42,16 @@
                     </div>   
                 </div>
                 <div class="lib-box">
-                    <section class="box" style="height: 8rem;">
+                    <section class="box">
                         <p class="box-p1">Create your first playlist</p>
                         <p class="box-p2">It's easy, we'll help you</p>
-                        <button class="badge">Create playlist</button>
+                        <button class="badge hide">Create playlist</button>
                     </section>
 
                     <section class="box" >
                         <p class="box-p1">Let's find some podcasts to follow</p>
                         <p class="box-p2">We'll keep you updated on new episodes</p>
-                        <button class="badge">Browse podcasts</button>
+                        <button class="badge hide">Browse podcasts</button>
                     </section>
                 </div>
             </div>
@@ -176,6 +175,10 @@
         <div class="music-player">
             <div class="album">
                 <img src="./Assets/album_picture.jpeg" class="album-icon">
+                <p class="info"><b>Daylight</b></br>David Kushner</p>
+            </div>
+            <div class="bt">
+                <img src="./Assets/album_icon1.png">
             </div>
             <div class="player">
                 <div class="player-controls">
@@ -186,9 +189,9 @@
                     <img src="./Assets/player_icon5.png" class="player-control-icon">
                 </div>
                 <div class="playback-bar">
-                    <span class="curr-time">00:00</span>
+                    <span class="time">00:00</span>
                     <input type="range" min="0" max="100" class="progress-bar" step="1">
-                    <span class="tot-time">03:33</span>
+                    <span class="time">03:33</span>
                 </div>
             </div>
             <div class="controls">
