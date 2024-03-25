@@ -1,5 +1,10 @@
 *{
+    color: white;
+}
+
+body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #000;
     color: white;
     overflow: hidden;
 }
@@ -40,12 +45,11 @@
 }
 
 .nav-option:hover{
-    
     opacity: 1;
     transition-duration: 1s;
 }
 
-a{
+a {
     text-decoration: none;
     background-color: #141414;
     margin-left: 0.75rem;
@@ -99,20 +103,23 @@ a{
 
 .box{
     background-color: #232323;
-    height: 10rem;
+    height: 8rem;
     border-radius: 0.75rem;
-    margin: 0.5rem 0 1.75rem 0;
+    margin: 0.5rem 0 1rem 0;
     padding: 1rem 1.25rem;
+    justify-content: space-evenly;
 }
 
 .box-p1{
     font-size: 1rem;
     font-weight: 700;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .box-p2{
     font-size: 0.75rem;
     opacity: 0.9;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .badge{
@@ -164,6 +171,18 @@ a{
     color: white;
 }
 
+.hide:hover {
+    background-color:black;
+    color: white;
+    border: 0.1em solid white;
+    transition-duration: 0.2s;
+}
+
+.dark-badge:hover {
+    border: 0.1em solid white;
+    transition-duration: 0.2s;
+}
+
 @media(max-width: 1200px){
     .hide{
         display:none;
@@ -171,16 +190,13 @@ a{
 }
 
 .card{
-    background-color: #1a1919;
     padding: 1rem;
     width: 160px;
     border-radius: 0.5rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
 }
 
 .card:hover{
-    background-color: #232323;
+    background-color: #1a1919;
     cursor: pointer;
 }
 
@@ -196,11 +212,13 @@ a{
 
 .card-title{
     font-weight: 600;
+    margin: 0.5rem;
 }
 
 .card-info{
     font-size: 0.85rem;
     opacity:0.8;
+    margin: 0.5rem;
 }
 
 .footer{
@@ -258,14 +276,20 @@ hr{
     align-items: center;
 }
 
-.album{
-    width: 25%;
+.album {
+    display: flex;
+    align-items: center;
 }
 
 .album-icon{
+    display: flex;
     height: 56px;
     width: 56px;
     border-radius: 4px;
+}
+
+.info {
+    margin-left: 1rem;
 }
 
 .player{
@@ -307,6 +331,11 @@ hr{
     appearance: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.time {
+    padding: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .progress-bar::-webkit-slider-runnable-track{
